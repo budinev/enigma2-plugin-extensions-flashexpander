@@ -1,2 +1,2 @@
-# enigma2-plugin-systemplugins-flashexpander
+# enigma2-plugin-extensions-flashexpander
 flashexpander h9
