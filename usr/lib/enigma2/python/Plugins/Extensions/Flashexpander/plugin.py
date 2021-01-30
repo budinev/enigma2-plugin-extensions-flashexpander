@@ -7,4 +7,4 @@ def main(session, **kwargs):
 	session.open(FlashExpander)
 
 def Plugins(**kwargs):
-	return [PluginDescriptor(name=_("FlashExpander"), description=_("extend your flash memory"), where = PluginDescriptor.WHERE_PLUGINMENU, fnc=main,icon="flashexpander.png"), PluginDescriptor(name=_("FlashExpander"), description=_("extend your flash memory"), where = PluginDescriptor.WHERE_EXTENSIONSMENU, fnc=main,icon="g3icon_flashexpander.png")]
+	return [PluginDescriptor(name=_("FlashExpander"), description=_("extend your flash memory"), where = PluginDescriptor.WHERE_PLUGINMENU, fnc=main,icon="flashexpander.png"), PluginDescriptor(name=_("FlashExpander"), description=_("extend your flash memory"), where = PluginDescriptor.WHERE_EXTENSIONSMENU, fnc=main)]
