@@ -48,7 +48,7 @@ def getFreeSize(mp):
 #-----------------------------------------------------------------------------
 
 class FlashExpander(Screen):
-	skin = """<screen position="center,center" size="630,50" title="FlashExpander openPli">
+	skin = """<screen position="center,center" size="630,50" title="FlashExpander Satlodge">
 			<widget name="list" position="5,5" size="623,40" />
 		</screen>"""
 	def __init__(self, session):
